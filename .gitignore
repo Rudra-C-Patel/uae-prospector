@@ -1,0 +1,29 @@
+# ---- Private data: never commit -------------------------------------------
+data/
+tracker.csv
+research.json
+drafts/
+briefs/
+Connections.csv
+*.zip
+*.csv
+!tests/fixtures/*.csv
+
+# Credentials of any kind
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+*.pem
+*.key
+
+# ---- Caches / tooling ------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.DS_Store
+*.log
